@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "Gotham Pro Light";
+  src: url("../fonts/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("../fonts/GothamPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  background: #292929;
+  color: #fff;
+  font-family: "Gotham Pro";
+  margin: 0;
+}
+
+header {
+  padding-top: 50px;
+}
+
+.header-description {
+  font-family: "Gotham Pro Light";
+  letter-spacing: 0.12px;
+  font-size: 12px;
+}
+
+.text-color-red {
+  color: #ff3469;
+  font-family: "Gotham Pro Medium";
+}
+
+.header-phone {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 500;
+  display: block;
+}
+
+.header-info {
+  font-size: 12px;
+  font-weight: 480;
+  margin-top: 7px;
+  display: block;
+  text-align: right;
+}
+
+.collback {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff3469;
+  display: block;
+  text-align: right;
+  margin-top: 16px;
+}
+
+.flower-slider {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 85px;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 100px;
+  border-bottom: 2px solid #3e3e3e;
+}
+
+.hero-title {
+  font-family: "Gotham Pro medium";
+  font-size: 34px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.34px;
+  width: 660px;
+  margin: auto;
+}
+
+.hero-description {
+  font-family: "Gotham Pro Light";
+  margin: auto;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 0.18px;
+  max-width: 590px;
+}
+
+.hero-cta {
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-cta b {
+  font-family: "Gotham Pro Medium";
+}
+
+.button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff2e55;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-top: 35px;
+  margin-bottom: 80px;
+  cursor: pointer;
+  border: 0;
+}
+
+b {
+  font-family: "Gotham Pro Medium";
+  font-weight: 500;
+}
+
+:root {
+  --swiper-navigation-size: 18px;
+  --swiper-navigation-color: #ff2e55;
+}
+
+.review-slide {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 95px;
+}
+
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.review-images {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: "Gotham Pro Light";
+  position: relative;
+  margin-right: 55px;
+}
+
+.review-images:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
+.review-name {
+  margin-bottom: 7px;
+}
+
+.review-images-1 {
+  background: #000 url(../img/reviews/reviews-1.jpg);
+}
+
+.review-images-2 {
+  background: #000 url(../img/reviews/reviews-2.jpg);
+}
+
+.review-images-3 {
+  background: #000 url(../img/reviews/reviews-3.jpg);
+}
+
+.review-images-1 > * {
+  position: relative;
+}
+
+.review-text {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.18px;
+}
+
+.review-link {
+  color: #f24841;
+}
+
+.section-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.adv {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  border-bottom: 2px solid #3e3e3e;
+}
+
+.adv-wrapper {
+  min-height: 80px;
+  margin-bottom: 30px;
+}
+
+.adv-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+.goods {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card {
+  text-align: center;
+  border: 3px solid #fff;
+  padding: 30px 0px 30px 0px;
+  margin: 10px auto 27px auto;
+  width: 250px;
+}
+
+.card-title {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.card-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.color-label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.color-input {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  z-index: -9;
+}
+
+.color-label.white {
+  background-color: #fff;
+}
+.color-label.biege {
+  background-color: #f7b496;
+}
+.color-label.pink {
+  background-color: #ed366e;
+}
+.color-label.red {
+  background-color: #ff0000;
+}
+.color-label.blue {
+  background-color: #12129d;
+}
+
+.button.card-button {
+  margin-bottom: 0;
+}
+
+.color-input {
+  padding: 0;
+}
+
+.colors.d-flex.justify-content-evenly {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.counter-input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  background-color: #292929;
+  color: #ffffff;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.counter-button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  background-color: #292929;
+  border: 0;
+}
+
+.card-button {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.link {
+  color: #f24841;
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+}
+
+.img-link {
+  padding-left: 5px;
+}
+
+.call-section {
+  background-color: #1a1a1a;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.call-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.underline {
+  text-decoration: underline;
+  margin-top: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.call-p {
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  padding-top: 50px;
+  letter-spacing: 0.14px;
+}
+
+.call-namber {
+  font-size: 36px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.footer-menu {
+  max-width: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.footer-menu-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.footer-menu-item {
+  margin-right: 30px;
+}
+
+.social {
+  font-size: 16px;
+  text-align: left;
+}
+
+.footer-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+.footer-phone {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 12;
+}
+
+.footer-2 {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-2-description {
+  font-family: "Gotham Pro Light";
+  letter-spacing: 0.12px;
+  font-size: 12px;
+  color: #000;
+}
+
+.footer-2-info {
+  font-size: 12px;
+  font-weight: 480;
+  margin-top: 7px;
+  display: block;
+  text-align: right;
+  color: #000;
+}
+
+.modal {
+  display: none;
+}
+
+.modal-title {
+  color: #262626;
+}
+
+.modal-button {
+  width: 100%;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header-phone {
+    text-align: center;
+  }
+  .header-info {
+    text-align: center;
+  }
+  .collback {
+    text-align: center;
+  }
+  .hero {
+    padding-top: 50px;
+  }
+  .hero-title {
+    font-size: 24px;
+    width: 540px;
+    text-align: center;
+    display: inline;
+  }
+  .hero-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .button {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  }
+
+  .footer-info {
+    text-align: left;
+  }
+  .social {
+    text-align: left;
+  }
+  .footer-menu-link {
+    text-align: center;
+  }
+
+  .adv {
+    text-align: 14px;
+  }
+  .call-namber {
+    font-size: 22px;
+  }
+
+  .call-title,
+  .underline {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 220px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 250px;
+  }
+}
